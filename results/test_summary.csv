@@ -1,0 +1,10 @@
+TestID,Pass,Measured,Expected
+TC-CTRL-001,1,peak |Iabc|=197.048 A,"finite 3-phase current, peak > 1 A"
+TC-DIAG-001,1,short OV max count=5000,"50 ms OV does not reach 100 ms count"
+TC-DIAG-003,1,count after short OV=0,"counter returns to zero"
+TC-DIAG-002,1,fault set t=0.199990 s,"fault set at 0.199990 s +/- 2Ts"
+TC-SAFE-001A,1,PWM enabled samples during fault=0,"PWM_Enable=0 while fault latched"
+TC-SAFE-001B,1,nonzero gate samples during fault=0,"all six gates=0 while fault latched"
+TC-LATCH-001,1,fault-low samples before reset=0,"fault remains latched until reset"
+TC-REC-001,1,fault clear t=0.249990 s,"fault clear at 0.250000 s +/- 2Ts"
+TC-INV-001,1,max |Va+Vb+Vc|=5.684e-14 V,"Va+Vb+Vc=0"
