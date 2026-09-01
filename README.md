@@ -1,6 +1,8 @@
-# INV ASPICE Inverter & Over-Voltage Diagnosis Demo
+# INV_ASPICE_Fault_Detection_with_simulink
 
-이 프로젝트는 인버터 제어 직무의 ASPICE 문서 흐름을 한 번에 설명하기 위한 실행 가능한 예제입니다.
+INV A-SPICE 개발 문서의 고장진단 요구사항을 분석하고, 고장 조건이 충족될 때 Fault Flag가 설정되도록 MATLAB/Simulink로 구현하고 검증한 실습입니다.
+
+이 저장소는 인버터 제어 직무의 A-SPICE 문서 흐름을 한 번에 설명하기 위한 실행 가능한 예제입니다.
 
 `사용자 요구사항 → 시스템 요구사항/아키텍처 → SRS → SADS → SUDS → Simulink 모델 → 검증`
 
@@ -68,4 +70,3 @@ open_system('INV_ASPICE_Inverter_Demo')
 - [SUDS](docs/04_SUDS.md)
 - [검증 계획](docs/05_Verification_Plan.md)
 - [추적성 매트릭스](docs/06_Traceability_Matrix.md)
-
